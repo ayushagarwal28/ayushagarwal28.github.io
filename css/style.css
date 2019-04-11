@@ -1,0 +1,66 @@
+body
+{
+	background-color: #181818;
+	font-family: Century Gothic;
+
+}
+
+.intro
+{
+	color: white;
+	font-size: 30px;
+	letter-spacing: 0.2;
+	text-align: left;
+	width: 70%;
+	float: left;
+	padding-left: 30px;
+	margin-bottom: 0;
+
+}
+h1
+{
+	color: gray;
+	font-size: 80px;
+	letter-spacing: 0.2;
+	text-align: center;
+	font-weight: normal;
+
+}
+.outro
+{
+	color: gray;
+	font-size: 30px;
+	letter-spacing: 0.2;
+	text-align: left;
+	width: 70%;
+	padding-left: 30px;
+	margin-top: 15px;
+	float: left;
+}
+
+.me
+{
+	height: 180px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 5%;
+}
+
+#link
+{
+	color: gray;
+	font-size: 30px;
+	letter-spacing: 0.2;
+	text-align: left;
+	width: 70%;
+	padding-left: 30%;
+	margin-top: 30px;
+	float: right;
+}
+
+.logo
+{
+	margin: 40px;
+	width: 130px;
+	height: 130px;
+}
