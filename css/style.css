@@ -1,66 +1,92 @@
 body
 {
-	background-color: #181818;
-	font-family: Century Gothic;
-
+	background-color: #262626;
+	font-family: 'Roboto', sans-serif;
 }
 
-.intro
-{
-	color: white;
-	font-size: 30px;
-	letter-spacing: 0.2;
-	text-align: left;
-	width: 70%;
-	float: left;
-	padding-left: 30px;
-	margin-bottom: 0;
-
-}
 h1
 {
-	color: gray;
-	font-size: 80px;
-	letter-spacing: 0.2;
-	text-align: center;
-	font-weight: normal;
+	line-height: 90px;
+	color: white;
+	font-size: 90px;
+	font-weight: 700;
+	margin-left: 130px;
+	margin-top: 180px;
+	margin-bottom: 0;
+	text-shadow: 10px 5px 10px rgba(0 , 0 , 0 , 0.3);
 
 }
-.outro
+
+h3
 {
-	color: gray;
-	font-size: 30px;
-	letter-spacing: 0.2;
-	text-align: left;
-	width: 70%;
-	padding-left: 30px;
-	margin-top: 15px;
-	float: left;
+	color: #797979;
+	letter-spacing: 1px;
+	width: 60%;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 400;
+	margin-left: 130px;
+	margin-bottom: 0;
+	text-shadow: 10px 5px 10px rgba(0 , 0 , 0 , 0.3);
+
 }
 
-.me
+.aboutme
 {
-	height: 180px;
-	float: left;
-	margin-top: 25px;
-	margin-left: 5%;
-}
-
-#link
-{
-	color: gray;
-	font-size: 30px;
-	letter-spacing: 0.2;
-	text-align: left;
-	width: 70%;
-	padding-left: 30%;
 	margin-top: 30px;
-	float: right;
 }
 
-.logo
+p
 {
-	margin: 40px;
-	width: 130px;
-	height: 130px;
+	color: #797979;
+	text-shadow: 5px 2px 5px rgba(0 , 0 , 0 , 0.5);
+	font-size: 18px;
+	margin-top: 10px;
+	margin-left: 130px;
+	letter-spacing: 0.5px;
+}
+
+span:hover
+{
+	padding: 0;
+	margin: 0;
+	color: #FC1C56;
+    cursor: default;
+}
+
+.sidenav 
+{
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #201E1E;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.icon
+{
+	margin-top: 140px;
+	margin-left: 04px;
+}
+
+.sidenav a
+{
+	padding-top: 30px;
+	margin-left: 12px;
+	font-size: 30px;
+	color: #818181;
+	display: block;
+}
+
+.sidenav a:hover
+{
+	color: #7BA1F7;
+}
+.sidenav a:active
+{
+	color: #7BA1F7;
 }
