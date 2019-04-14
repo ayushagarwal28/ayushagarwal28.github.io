@@ -86,7 +86,16 @@ span:hover
 {
 	color: #7BA1F7;
 }
-.sidenav a:active
+
+.contact a:hover
 {
-	color: #7BA1F7;
+	color: #FC1C56;
+}
+
+.contact
+{
+	margin-top: 50px;
+	margin-left: 150px;
+	font-size: 75px;
+	letter-spacing: 40px;
 }
