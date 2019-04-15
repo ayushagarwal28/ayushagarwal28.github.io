@@ -110,7 +110,6 @@ span:hover
 	display: block;
 	text-decoration: none;
 	color: #797979;
-	transition: all 0.1s linear;
 }
 
 .contact-list a:hover
