@@ -21,10 +21,10 @@ h3
 {
 	color: #797979;
 	letter-spacing: 1px;
-	width: 60%;
+	width: 70%;
 	line-height: 30px;
-	font-size: 20px;
-	font-weight: 400;
+	font-size: 25px;
+	font-weight: 300;
 	margin-left: 130px;
 	margin-bottom: 0;
 	text-shadow: 10px 5px 10px rgba(0 , 0 , 0 , 0.3);
@@ -41,7 +41,7 @@ p
 	color: #797979;
 	text-shadow: 5px 2px 5px rgba(0 , 0 , 0 , 0.5);
 	font-size: 18px;
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-left: 130px;
 	letter-spacing: 0.5px;
 }
@@ -84,18 +84,42 @@ span:hover
 
 .sidenav a:hover
 {
+	transform : translateX(3px);
 	color: #7BA1F7;
 }
 
-.contact a:hover
+.contact-list
 {
-	color: #FC1C56;
+	margin-top: 30px;
+	margin-left: 95px;
+	font-weight: 300;
+	text-align: left;
+	display: block;
+	font-size: 30px;
+	list-style-type: none;
 }
 
-.contact
+.contact-list li
 {
-	margin-top: 50px;
-	margin-left: 150px;
-	font-size: 75px;
-	letter-spacing: 40px;
+	margin-bottom: 20px;
+		
+}
+
+.contact-list a
+{
+	display: block;
+	text-decoration: none;
+	color: #797979;
+	transition: all 0.1s linear;
+}
+
+.contact-list a:hover
+{
+	color: #f3f3f3;
+	transform : translateX(5px);
+}
+
+.contact-list a:hover span
+{
+	color: #FC1C56;
 }
