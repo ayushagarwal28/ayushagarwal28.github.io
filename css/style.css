@@ -4,7 +4,7 @@ body
 	font-family: 'Roboto', sans-serif;
 }
 
-h1
+.shade h1
 {
 	line-height: 90px;
 	color: white;
@@ -64,7 +64,7 @@ span:hover
 
 .icon
 {
-	margin-top: 140px;
+	margin-top: 135px;
 	margin-left: 04px;
 }
 
@@ -116,4 +116,19 @@ span:hover
 .contact-list a:hover span
 {
 	color: #FC1C56;
+}
+.row
+{
+	margin-top: 100px;
+}
+.row h2
+{
+	color: #797979;
+}
+
+.bdr
+{
+	float: left;
+	padding: auto;
+	border: 2px solid rgba(79,79,79,0.6);
 }
