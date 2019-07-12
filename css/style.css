@@ -1,6 +1,6 @@
 body
 {
-	background-color: #262626;
+	background-color: #262626fa;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -8,7 +8,7 @@ body
 {
 	line-height: 90px;
 	color: white;
-	font-size: 90px;
+	font-size: 6rem;
 	font-weight: 700;
 	margin-left: 130px;
 	margin-top: 180px;
@@ -21,17 +21,22 @@ h3
 {
 	color: #797979;
 	letter-spacing: 1px;
-	width: 70%;
+	width: 80%;
 	line-height: 30px;
 	font-size: 25px;
 	font-weight: 300;
 	margin-left: 130px;
 	margin-bottom: 0;
 	text-shadow: 10px 5px 10px rgba(0 , 0 , 0 , 0.3);
-
+	text-align: left;
 }
 
-p
+.row h3 {
+	color: #797979;
+	font-size: 25px;
+}
+
+.shade p
 {
 	color: #797979;
 	text-shadow: 5px 2px 5px rgba(0 , 0 , 0 , 0.5);
@@ -49,6 +54,7 @@ span:hover
     cursor: default;
 }
 
+
 .sidenav 
 {
   height: 100%;
@@ -59,18 +65,11 @@ span:hover
   left: 0;
   background-color: #201E1E;
   overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.icon
-{
-	margin-top: 135px;
-	margin-left: 04px;
 }
 
 .sidenav a
 {
-	padding-top: 30px;
+	padding-top: 25px;
 	margin-left: 12px;
 	font-size: 30px;
 	color: #818181;
@@ -82,6 +81,30 @@ span:hover
 	transform : translateX(3px);
 	color: #7BA1F7;
 }
+
+#special-icon {
+	margin-top: 90px;
+	margin-left: 4px;
+}
+
+.active
+{
+	color: #7BA1F7;
+}
+
+.row
+{
+	margin-top: 100px;
+}
+
+.row h2
+{
+	color: #797979;
+}
+
+
+
+/* CONTACT PAGE */
 
 .contact-list
 {
@@ -97,6 +120,11 @@ span:hover
 .contact-list li
 {
 	margin-bottom: 20px;
+		
+}
+.contact-list i
+{
+	margin-right: 20px;
 		
 }
 
@@ -117,18 +145,6 @@ span:hover
 {
 	color: #FC1C56;
 }
-.row
-{
-	margin-top: 100px;
-}
-.row h2
-{
-	color: #797979;
-}
 
-.bdr
-{
-	float: left;
-	padding: auto;
-	border: 2px solid rgba(79,79,79,0.6);
-}
+
+/* END CONTACT PAGE */
