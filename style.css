@@ -51,8 +51,8 @@ span:hover {
 .heading h3 {
 	color: #797979;
 	letter-spacing: 0.08rem;
-	width: 80%;
-	font-size: calc(1rem + 0.8 * ((100vw - 20rem) / 60));
+	width: 90%;
+	font-size: calc(1rem + 0.5 * ((100vw - 20rem) / 60));
 	font-weight: 300;
 	text-shadow: 10px 5px 10px rgba(0 , 0 , 0 , 0.3);
 	padding-left: calc(4.5rem + (5 - 3.5) * ((100vw - 20rem) / 60));
