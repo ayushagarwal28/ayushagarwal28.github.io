@@ -52,7 +52,7 @@ span:hover {
 	color: #797979;
 	letter-spacing: 0.08rem;
 	width: 90%;
-	font-size: calc(1rem + 0.5 * ((100vw - 20rem) / 60));
+	font-size: calc(0.8rem + 0.5 * ((100vw - 20rem) / 60));
 	font-weight: 300;
 	text-shadow: 10px 5px 10px rgba(0 , 0 , 0 , 0.3);
 	padding-left: calc(4.5rem + (5 - 3.5) * ((100vw - 20rem) / 60));
@@ -65,7 +65,7 @@ span:hover {
 
 .contact-list
 {
-	font-size: calc(1rem + 0.8 * ((100vw - 20rem) / 60));
+	font-size: calc(0.3rem + 0.3 * ((100vw - 20rem) / 60));
 	padding-left: calc(5rem + (6 - 5) * ((100vw - 20rem) / 60));
 	font-weight: 300;
 	text-align: left;
