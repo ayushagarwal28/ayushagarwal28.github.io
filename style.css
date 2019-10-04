@@ -32,17 +32,17 @@ p {
 }
 
 a:link {
-    color: #FC1C56;
+    color: #ff283c96;
     text-decoration: none;
 }
 
 a:visited {
-    color: #FC1C56;
+    color: #ff283c96;
     text-decoration: none;
 }
 
 a:hover {
-    color: #FC1C56;
+    color: #ff283c96;
     text-decoration: none;
 }
 
@@ -57,15 +57,11 @@ div p:first-child {
 table {
     display: flex;
     justify-content: center;
-    padding: 20px 0px 0px;
 }
 
-td {
-    padding: 3px 0px;
-}
-
-tr a {
-    padding-left: 7px;
+td li {
+    text-align: left;
+    padding: 30px;
 }
 
 hr.style-two {
@@ -82,8 +78,6 @@ hr {
 
 .contact-list li
 {
-    margin-bottom: 15px;
-    text-align: center;
     list-style-type: none;
 }
 .contact-list i
@@ -93,21 +87,27 @@ hr {
 
 .contact-list a
 {
-    display: block;
     text-decoration: none;
     color: #797979;
-    transition: all 0.4s;
+    display: flex;
+    transition: all 0.6s;
+
 }
 
 .contact-list a:hover
 {
-    transform : translateX(5px);
+    transform : translateX(6px);
     color: #f3f3f3;
 }
 
 .contact-list a:hover span
 {
     color: #FC1C56;
+}
+
+.contact a {
+    display: block;
+    padding: 20px;
 }
 
 @media only screen and (max-width: 786px) {
@@ -118,4 +118,7 @@ hr {
     div p:first-child {
         font-size: 36px;
     }
+    td li {
+    padding: 5px;
+}
 }
