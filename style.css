@@ -7,15 +7,12 @@ html {
 }
 
 body {
+    padding: 100px 20px;
     display: flex;
     justify-content: center;
     font-size: 26px;
     text-align: center;
-    background-image: url("bg.jpg");
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /*filter: blur(5px) grayscale(10%);*/
+    background-color: #11202a;
 
 }
 
