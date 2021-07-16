@@ -1,134 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,700');
-
-html, body {
-    margin:0;
-    padding:0;
-    width:100%;
-    height:100%;
-    overflow: auto;
-    font-family: 'Raleway', sans-serif;
+h1 {
+  font-family: 'Fuggles', cursive;
+  font-size: 5em;
+  margin: 1em 0 0.5em 0;
 }
 
-body {
-    padding-top: 8%;
-    display: flex;
-    justify-content: center;
-    font-size: 26px;
-    text-align: center;
-    background-color: #11202a;
+html { font-size: 1.0em; }
 
+h2 {
+  font-size: 1.3em;
+  margin: 1em 0 1em 0;
+  position: relative;
+  z-index: 1;
 }
 
-p span {
-    color: #ff283c96;
+h2::before {
+  border-top: 2px solid #dfdfdf;
+  content:"";
+  position: absolute;
+  top: 115%; left: 0; right: 0; bottom: 0;
+  width: 25%;
+  z-index: -1;
 }
 
-p {
-    font-weight: 300;
-    color: #afafaf;
-    padding: 10px 0px;
-    margin: 0px;
+h3 { font-size: 1.2em; }
+
+h4 { font-size: 1.1em; }
+
+p { 
+  font-family: 'Roboto', sans-serif;
+  color: #1c1c1c;
 }
 
-#special {
-    color: #afafaf;
+small { font-size: 0.8em; }
+
+.container {
+  height: 100%;
 }
 
-a:link {
-    color: #afafaf;
-    text-decoration: none;
+.run-animation {
+  transition: background-color 1.2s ease;
 }
 
-a:visited {
-    color: #ff283c96;
-    text-decoration: none;
+.white-background { 
+  background-color: #1c1c1c;
 }
 
-a:hover {
-    color: #ff283c96;
-    text-decoration: none;
+.black {
+  color: white;
 }
 
-a:active {
-    color: #afafaf;
-}
-
-div p:first-child {
-    font-size: 72px;
-}
-
-table {
-    display: flex;
-    justify-content: center;
-}
-
-td li {
-    text-align: left;
-
-    padding: 30px;
-}
-
-hr.style-two {
-    width: 50%;
-    margin: 50px auto 50px;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(212, 212, 212, 0.75), rgba(0, 0, 0, 0));
-}
-
-hr {
-
-}
-
-.contact-list li
-{
-    font-weight: 300;
-    list-style-type: none;
-}
-.contact-list i
-{
-    margin-right: 15px;
-}
-
-.contact-list a
-{
-    text-decoration: none;
-    color: #797979;
-    display: flex;
-    transition: all 0.6s;
-
-}
-
-.contact-list a:hover
-{
-    transform : translateX(6px);
-    color: #f3f3f3;
-}
-
-.contact-list a:hover span
-{
-    color: #FC1C56;
-}
-
-.contact a {
-    display: block;
-    padding: 20px;
-}
-
-@media only screen and (max-width: 786px) {
-    body {
-        font-size: 18px;
-    }
-
-    td li {
-    padding: 4px;
-    }
-
-    div p:first-child {
-    font-size: 30px;
-    }
-
-    .contact a {
-    padding: 10px;
-}
-}
