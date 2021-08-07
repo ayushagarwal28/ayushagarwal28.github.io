@@ -2,6 +2,7 @@ h1 {
   font-family: 'Fuggles', cursive;
   font-size: 5em;
   margin: 1em 0 0.5em 0;
+  display: inline-block;
 }
 
 html { font-size: 1.0em; }
@@ -49,3 +50,6 @@ small { font-size: 0.8em; }
   color: white;
 }
 
+i {
+  padding-left: 1em;
+}
