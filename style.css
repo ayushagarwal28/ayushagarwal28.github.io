@@ -1,14 +1,17 @@
 h1 {
-  font-family: 'Fuggles', cursive;
+  font-family: "Fuggles", cursive;
   font-size: 5em;
   margin: 1em 0 0.5em 0;
   display: inline-block;
+  text-align: center;
 }
 
-html { font-size: 1.0em; }
+html {
+  font-size: 1em;
+}
 
 h2 {
-  font-size: 1.3em;
+  font-size: 1.8em;
   margin: 1em 0 1em 0;
   position: relative;
   z-index: 1;
@@ -16,33 +19,36 @@ h2 {
 
 h2::before {
   border-top: 2px solid #dfdfdf;
-  content:"";
+  content: "";
   position: absolute;
-  top: 115%; left: 0; right: 0; bottom: 0;
+  top: 115%;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 25%;
   z-index: -1;
 }
 
-h3 { font-size: 1.2em; }
-
-h4 { font-size: 1.1em; }
-
-p { 
-  font-family: 'Roboto', sans-serif;
+p {
+  font-family: "Roboto", sans-serif;
   color: #1c1c1c;
 }
 
-small { font-size: 0.8em; }
+small {
+  font-size: 0.8em;
+}
 
 .container {
   height: 100%;
+  width: 100%;
+  padding: 0 1em;
 }
 
 .run-animation {
   transition: background-color 1.2s ease;
 }
 
-.white-background { 
+.white-background {
   background-color: #1c1c1c;
 }
 
@@ -52,4 +58,24 @@ small { font-size: 0.8em; }
 
 i {
   padding-left: 1em;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  .large-6 {
+    width: 100%;
+    margin-bottom: 1em;
+  }
 }
