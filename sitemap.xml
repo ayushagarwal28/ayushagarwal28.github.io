@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Home Page -->
+    <url>
+        <loc>https://ayushagarwal28.github.io/</loc>
+        <lastmod>2024-09-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Standard Tuning by Ear -->
+    <url>
+        <loc>https://guitaronlinetuner.com/tune-by-ear</loc>
+        <lastmod>2024-09-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+     <!-- aidevzone -->
+    <url>
+        <loc>https://aidevzone.xyz/</loc>
+        <lastmod>2024-09-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Alternate Tuning -->
+    <url>
+        <loc>https://guitaronlinetuner.com/alternate-tuning</loc>
+        <lastmod>2024-09-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Guitar Chords -->
+    <url>
+        <loc>https://guitaronlinetuner.com/chords</loc>
+        <lastmod>2024-09-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+</urlset>
